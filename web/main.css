@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2014, 12:26:01 AM
+    Author     : gon1332
+*/
+
+.jumbotron {
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.jumbotron .container {
+    top: 40%;
+    left: 25%;
+}
+
+.jumbotron h1 {
+    color: #581700;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron select {
+    width: 50%;
+}
+
+.jumbotron .btn {
+    background-color: #581700;
+    color: #D99B64;
+}
+
+.jumbotron p {
+    color: #A83200;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.jumbotron ul li {
+    color: #581904;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
