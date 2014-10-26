@@ -8,15 +8,18 @@ and open the template in the editor.
     Author     : gon1332
 */
 
-.jumbotron {
+body {
     background-image: url("main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.jumbotron {
+    margin-top: 9%;
 }
 
 .jumbotron .container {
-    top: 40%;
+    top: 25%;
     left: 25%;
 }
 

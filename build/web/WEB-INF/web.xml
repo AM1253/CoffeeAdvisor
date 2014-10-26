@@ -4,8 +4,17 @@
         <servlet-name>CoffeeSelect</servlet-name>
         <servlet-class>CoffeeAdvisor.CoffeeSelect</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CoffeeExpert</servlet-name>
+        <servlet-class>CoffeeAdvisor.CoffeeExpert</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>CoffeeSelect</servlet-name>
         <url-pattern>/SelectCoffee.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CoffeeExpert</servlet-name>
+        <url-pattern>/SelectExpert</url-pattern>
     </servlet-mapping>
 </web-app>
